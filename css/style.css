@@ -590,6 +590,7 @@ body.light hr.separator {
 
 .about .about-list .value {
   font-weight: 600;
+  word-break: break-word;
 }
 
 /* Box Stats */
@@ -1825,4 +1826,7 @@ body.light hr.separator {
   .separator.mt-1 {
     margin-top: 35px !important;
   }
+  .mainbodycontent {
+    height: 400px;
+}
 }

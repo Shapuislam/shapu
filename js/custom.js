@@ -172,7 +172,7 @@ var clearText = function(id,duration){
       let newText = text.substr(0,text.length-i);
       document.getElementById(id).innerHTML = newText;
     },duration*i);
-  }
+  } 
 }
 var initSlider = function(id,texts,duration,delay){
   let durs = [];
