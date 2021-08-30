@@ -96,7 +96,7 @@
         /* ----------------------------------------------------------- */
 
 		$(".contactform").on("submit", function() {
-			$(".output_message").text("Message Sent!");
+			$(".output_message").text("Thank you for contact us. As early as possible we will contact you");
 
 			var form = $(this);
 			$.ajax({
@@ -108,7 +108,7 @@
 						$(".form-inputs").css("display", "none");
 						$(".box p").css("display", "none");
 						$(".contactform").find(".output_message").addClass("success");
-						$(".output_message").text("Message Sent!");
+						$(".output_message").text("Thank you for contact us. As early as possible we will contact you");
 					} 
 
 					// else {

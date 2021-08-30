@@ -1,14 +1,14 @@
 <?php
 //get data from form  
 $name = $_POST['name'];
-$email= $_POST['emailaddress'];
+$email= $_POST['email'];
 $message= $_POST['message'];
 $number = $_POST['mobile'];
 
 $to = "shapuislam3@gmail.com";
 
 $subject = "Mail From Shapu";
-$txt ="Name = ". $name . "\r\n Email = " . $emailaddress . "\r\n Message =" . $message ."\r\n Mobile number =". $number;
+$txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Message =" . $message ."\r\n Mobile number =". $number;
 
 $headers = "From: noreply@codeconia.com";
 if($email!=NULL){
