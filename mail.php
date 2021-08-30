@@ -7,7 +7,7 @@ $number = $_POST['mobile'];
 
 $to = "shapuislam3@gmail.com";
 
-$subject = "Mail From Shapu";
+$subject = "Mail From $name ";
 $txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Message =" . $message ."\r\n Mobile number =". $number;
 
 $headers = "From: noreply@codeconia.com";
